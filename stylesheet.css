@@ -559,7 +559,7 @@
     }
     .wrapper__sidebar__navigation__links {
     display:flex;
-        flex-wrap:nowrap;
+        flex-wrap:wrap;
         align-items:center;
         padding:0;
         margin:0;
