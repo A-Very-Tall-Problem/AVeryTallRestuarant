@@ -575,7 +575,6 @@
         text-align: center;
         margin: auto;
 }
-    }
     .wrapper__sidebar__navigation__links li a {
     display:inline-block;
         background-color:rgba(var(--heading-text), 0.2);
