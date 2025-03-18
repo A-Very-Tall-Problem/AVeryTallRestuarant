@@ -73,7 +73,9 @@
     img,picture {
     max-width:100%;
         height:auto;
-        display:block}
+        display:block;
+        margin-left: auto;
+        margin-right: auto}
     input,button,textarea,select {
     font:inherit}
     @media(prefers-reduced-motion: reduce) {
@@ -558,15 +560,21 @@
         top:48px}
     }
     .wrapper__sidebar__navigation__links {
-    display:flex;
-        flex-wrap:wrap;
+        display: flex;
+        flex-wrap: wrap;
         gap: 10px;
-        align-items:center;
-        padding:0;
-        margin:0;
-        list-style:none}
+        justify-content: center; 
+        align-items: center; 
+        padding: 0;
+        margin: 0 auto; 
+        list-style: none;
+        max-width: 100%; 
+    }
+    /* makes the nav links into a two column */
     .wrapper__sidebar__navigation__links li {
-        width: calc(50% - 10px); /* Ensures two columns */
+        width: calc(50% - 10px); 
+        display: flex;
+        justify-content: center; 
     }
     .wrapper__sidebar__navigation__links li a {
     display:inline-block;
