@@ -74,8 +74,7 @@
     max-width:100%;
         height:auto;
         display:block;
-        margin-left: auto;
-        margin-right: auto}
+        margin: auto}
     input,button,textarea,select {
     font:inherit}
     @media(prefers-reduced-motion: reduce) {
@@ -573,8 +572,9 @@
     /* makes the nav links into a two column */
     .wrapper__sidebar__navigation__links li {
         width: calc(50% - 10px); 
-        display: flex;
-        justify-content: center; 
+        text-align: center;
+        margin: auto;
+}
     }
     .wrapper__sidebar__navigation__links li a {
     display:inline-block;
